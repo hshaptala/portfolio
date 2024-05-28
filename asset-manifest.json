@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a9fea2b0.css",
-    "main.js": "/portfolio/static/js/main.0cd22fdf.js",
+    "main.css": "/portfolio/static/css/main.262b54c7.css",
+    "main.js": "/portfolio/static/js/main.931d31dd.js",
     "static/media/03-big.jpg": "/portfolio/static/media/03-big.42d4e6c6843189e73fd2.jpg",
     "static/media/react.png": "/portfolio/static/media/react.6ae796f5d9f3e367acea.png",
     "static/media/odomo-big.png": "/portfolio/static/media/odomo-big.98e768a2c4c7cf6b0736.png",
@@ -9,27 +9,29 @@
     "static/media/03.jpg": "/portfolio/static/media/03.a1f0cefe3665b6313065.jpg",
     "static/media/odomo.png": "/portfolio/static/media/odomo.34d5c36284a08a1c42bd.png",
     "static/media/python.png": "/portfolio/static/media/python.6a5cbc319ab3ddf8ef92.png",
-    "static/media/c.png": "/portfolio/static/media/c.ca323b325816f40cf155.png",
     "static/media/towa.png": "/portfolio/static/media/towa.9f551caad8943d97f4f3.png",
     "static/media/header-bg.png": "/portfolio/static/media/header-bg.5bf82a058f892ab7f237.png",
+    "static/media/matplotlib.png": "/portfolio/static/media/matplotlib.108848d4569ad2010a41.png",
     "static/media/java.png": "/portfolio/static/media/java.ddf8676bd569fe01ab44.png",
     "static/media/csharp.png": "/portfolio/static/media/csharp.4a32f53d425c7ad4cb05.png",
     "static/media/sql.png": "/portfolio/static/media/sql.fbe5ebc3783670d8d7fa.png",
-    "static/media/bash.png": "/portfolio/static/media/bash.be4bed423b1d1b6bf31a.png",
+    "static/media/gitlab.png": "/portfolio/static/media/gitlab.6d4cbc2644f1b09d8ac4.png",
     "static/media/wordpress.png": "/portfolio/static/media/wordpress.11ed091523e3152b651f.png",
-    "static/media/git.png": "/portfolio/static/media/git.63b94516b0c8926a967f.png",
+    "static/media/github.png": "/portfolio/static/media/github.f11021803f68852df283.png",
+    "static/media/vscode.png": "/portfolio/static/media/vscode.3cf87a7da79114d71801.png",
     "static/media/html.png": "/portfolio/static/media/html.cfb2ba4a6b1c3de295bc.png",
     "static/media/css.png": "/portfolio/static/media/css.4a6549b8c2b4cda8bb88.png",
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/gitHub.svg": "/portfolio/static/media/gitHub.a5541850a2a6843f34467a91657cc39d.svg",
     "static/media/gitHub-black.svg": "/portfolio/static/media/gitHub-black.879a08487a26f06ac21248a96c866696.svg",
     "static/media/linkedIn.svg": "/portfolio/static/media/linkedIn.55523f62797ddb51e960322dd47e5636.svg",
+    "static/media/numpy.svg": "/portfolio/static/media/numpy.6fb9a991659e7c32b00af7534acc3160.svg",
     "index.html": "/portfolio/index.html",
-    "main.a9fea2b0.css.map": "/portfolio/static/css/main.a9fea2b0.css.map",
-    "main.0cd22fdf.js.map": "/portfolio/static/js/main.0cd22fdf.js.map"
+    "main.262b54c7.css.map": "/portfolio/static/css/main.262b54c7.css.map",
+    "main.931d31dd.js.map": "/portfolio/static/js/main.931d31dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9fea2b0.css",
-    "static/js/main.0cd22fdf.js"
+    "static/css/main.262b54c7.css",
+    "static/js/main.931d31dd.js"
   ]
 }
