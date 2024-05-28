@@ -1,12 +1,15 @@
 import { useParams } from "react-router-dom";
-
 import BtnGitHub from "../components/btnGitHub/BtnGitHub";
 import { projects } from "./../helpers/projectsList";
-import java from "./../img/icons/java.png";
+import { languages } from "./../helpers/skills";
 
 const Project = () => {
   const { id } = useParams();
   const project = projects[id];
+
+  const getLanguage = (language) => {
+    return languages.find((lang) => lang.name === language);
+  };
 
   return (
     <main className="section">
@@ -22,10 +25,19 @@ const Project = () => {
           <div className="content-category">
             <h2>Skills</h2>
             <ul className="content-category-list">
-              <li className="content-category-list-item">
-                <img src={java} alt="Java" />
-                <p>Java</p>
-              </li>
+              {project.skills.map((skill) => {
+                const language = getLanguage(skill);
+                return (
+                  <li key={skill} className="content-category-list-item">
+                    <img
+                      src={language.img}
+                      alt={language.name}
+                      className="skill-icon"
+                    />
+                    <p>{language.name}</p>
+                  </li>
+                );
+              })}
             </ul>
           </div>
           {project.link && <BtnGitHub link="https://github.com/hshaptala" />}

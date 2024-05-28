@@ -12,8 +12,8 @@ const Header = () => {
         <div className="header-text">
           <p></p>
         </div>
-        <a href="/" className="btn">
-          Explore projects
+        <a href="/projects" className="btn">
+          Download CV
         </a>
       </div>
     </header>
