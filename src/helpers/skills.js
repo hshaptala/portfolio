@@ -12,7 +12,7 @@ import bash from "./../img/icons/bash.png";
 import wordpress from "./../img/icons/wordpress.png";
 
 const languages = [
-  { img: css, name: "HTML" },
+  { img: html, name: "HTML" },
   { img: css, name: "CSS" },
   { img: js, name: "JavaScript" },
   { img: java, name: "Java" },
