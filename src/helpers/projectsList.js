@@ -1,3 +1,5 @@
+import { languages } from "./../helpers/skills";
+
 import towa from "./../img/projects/towa.png";
 import towaBig from "./../img/projects/towa-big.png";
 
@@ -7,13 +9,17 @@ import odomoBig from "./../img/projects/odomo-big.png";
 import project03 from "./../img/projects/03.jpg";
 import project03Big from "./../img/projects/03-big.jpg";
 
+const getSkillObject = (skillName) => {
+  return languages.find((language) => language.name === skillName);
+};
+
 const projects = [
   {
     title: "Towa",
     description: "Board game with AI implementation",
     img: towa,
     imgBig: towaBig,
-    skills: "Java",
+    skills: getSkillObject("Java"),
     link: "google.com",
   },
 
