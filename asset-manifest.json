@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8bb4555.css",
-    "main.js": "/static/js/main.3593ff34.js",
+    "main.css": "/static/css/main.617f8b9d.css",
+    "main.js": "/static/js/main.d4bd5a68.js",
     "static/media/03-big.jpg": "/static/media/03-big.42d4e6c6843189e73fd2.jpg",
     "static/media/react.png": "/static/media/react.6ae796f5d9f3e367acea.png",
     "static/media/odomo-big.png": "/static/media/odomo-big.98e768a2c4c7cf6b0736.png",
+    "static/media/me.jpg": "/static/media/me.db73a445571050b72fa2.jpg",
     "static/media/towa-big.png": "/static/media/towa-big.b33bc9562f36fd75c54a.png",
+    "static/media/unicorn.jpg": "/static/media/unicorn.cb6e7d89d0393abc39a9.jpg",
     "static/media/03.jpg": "/static/media/03.a1f0cefe3665b6313065.jpg",
     "static/media/git.png": "/static/media/git.8dd3688bb1415872d423.png",
     "static/media/odomo.png": "/static/media/odomo.34d5c36284a08a1c42bd.png",
@@ -29,11 +31,11 @@
     "static/media/linkedIn.svg": "/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "static/media/numpy.svg": "/static/media/numpy.6fb9a991659e7c32b00af7534acc3160.svg",
     "index.html": "/index.html",
-    "main.b8bb4555.css.map": "/static/css/main.b8bb4555.css.map",
-    "main.3593ff34.js.map": "/static/js/main.3593ff34.js.map"
+    "main.617f8b9d.css.map": "/static/css/main.617f8b9d.css.map",
+    "main.d4bd5a68.js.map": "/static/js/main.d4bd5a68.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8bb4555.css",
-    "static/js/main.3593ff34.js"
+    "static/css/main.617f8b9d.css",
+    "static/js/main.d4bd5a68.js"
   ]
 }
