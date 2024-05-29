@@ -202,6 +202,7 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  justify-content: center;
   font-size: 18px;
 }
 
@@ -259,12 +260,9 @@ body {
 
   /* Nav */
 
-  .nav-row {
-    justify-content: space-between;
-  }
-
-  .dark-mode-btn {
-    order: 0;
+  .nav-row a,
+  ul {
+    margin: 0 auto;
   }
 
   /* General */
