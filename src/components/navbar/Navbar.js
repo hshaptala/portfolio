@@ -9,13 +9,13 @@ const Navbar = () => {
     <nav className="nav">
       <div className="container">
         <div className="nav-row">
-          <NavLink to="/portfolio" className="logo">
+          <NavLink to="/" className="logo">
             <strong>Shaptala</strong> Hlib
           </NavLink>
           <ul className="nav-list">
             <li className="nav-list__item">
               <NavLink
-                to="/portfolio"
+                to="/"
                 className={({ isActive }) =>
                   isActive ? activeLink : normalLink
                 }
