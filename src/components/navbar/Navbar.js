@@ -25,6 +25,16 @@ const Navbar = () => {
             </li>
             <li className="nav-list-item">
               <NavLink
+                to="/about"
+                className={({ isActive }) =>
+                  isActive ? activeLink : normalLink
+                }
+              >
+                About
+              </NavLink>
+            </li>
+            <li className="nav-list-item">
+              <NavLink
                 to="/projects"
                 className={({ isActive }) =>
                   isActive ? activeLink : normalLink
@@ -35,12 +45,12 @@ const Navbar = () => {
             </li>
             <li className="nav-list-item">
               <NavLink
-                to="/contacts"
+                to="/contact"
                 className={({ isActive }) =>
                   isActive ? activeLink : normalLink
                 }
               >
-                Contacts
+                Contact
               </NavLink>
             </li>
           </ul>
