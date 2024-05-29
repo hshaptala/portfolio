@@ -40,7 +40,7 @@ const Project = () => {
               })}
             </ul>
           </div>
-          {project.link && <BtnGitHub link="https://github.com/hshaptala" />}
+          <BtnGitHub link={project.link} />
         </div>
       </div>
     </main>

@@ -14,7 +14,7 @@ const projects = [
     img: towa,
     imgBig: towaBig,
     skills: ["Java"],
-    link: "google.com",
+    link: "https://github.com/hshaptala",
   },
 
   {
@@ -23,7 +23,7 @@ const projects = [
     img: odomo,
     imgBig: odomoBig,
     skills: ["Java"],
-    link: "google.com",
+    link: "https://github.com/hshaptala",
   },
 
   {
@@ -32,7 +32,7 @@ const projects = [
     img: project03,
     imgBig: project03Big,
     skills: ["HTML", "CSS", "JavaScript"],
-    link: "google.com",
+    link: "https://github.com/hshaptala",
   },
 ];
 

@@ -1,6 +1,8 @@
 import "./style.css";
 
 const Header = () => {
+  const imagePath = process.env.PUBLIC_URL + "/assets/unicorn.jpg";
+
   return (
     <header className="header">
       <div className="header-wrapper">
@@ -12,7 +14,12 @@ const Header = () => {
         <div className="header-text">
           <p></p>
         </div>
-        <a href="/projects" className="btn">
+        <a
+          className="btn"
+          href={imagePath}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Download CV
         </a>
       </div>
