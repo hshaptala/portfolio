@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.34725d95.css",
-    "main.js": "/static/js/main.ac95a3a6.js",
+    "main.css": "/static/css/main.8dcd88c3.css",
+    "main.js": "/static/js/main.effed296.js",
     "static/media/react.png": "/static/media/react.6ae796f5d9f3e367acea.png",
     "static/media/odomo-big.png": "/static/media/odomo-big.98e768a2c4c7cf6b0736.png",
     "static/media/me.jpg": "/static/media/me.db73a445571050b72fa2.jpg",
     "static/media/pixelwar-big.png": "/static/media/pixelwar-big.ab6ede3e0f44e388c92b.png",
     "static/media/towa-big.png": "/static/media/towa-big.b33bc9562f36fd75c54a.png",
-    "static/media/unicorn.jpg": "/static/media/unicorn.cb6e7d89d0393abc39a9.jpg",
     "static/media/pixelwar.png": "/static/media/pixelwar.3ab38cce7d8dbd2d3da4.png",
     "static/media/git.png": "/static/media/git.8dd3688bb1415872d423.png",
     "static/media/odomo.png": "/static/media/odomo.34d5c36284a08a1c42bd.png",
@@ -20,6 +19,7 @@
     "static/media/csharp.png": "/static/media/csharp.4a32f53d425c7ad4cb05.png",
     "static/media/sql.png": "/static/media/sql.fbe5ebc3783670d8d7fa.png",
     "static/media/gitlab.png": "/static/media/gitlab.6d4cbc2644f1b09d8ac4.png",
+    "static/media/about.jpeg": "/static/media/about.03a58fec77fabdefd049.jpeg",
     "static/media/wordpress.png": "/static/media/wordpress.11ed091523e3152b651f.png",
     "static/media/github.png": "/static/media/github.f11021803f68852df283.png",
     "static/media/vscode.png": "/static/media/vscode.3cf87a7da79114d71801.png",
@@ -30,11 +30,11 @@
     "static/media/gitHub-black.svg": "/static/media/gitHub-black.61157a57f0853aa9fd2f3622b730cdfc.svg",
     "static/media/numpy.svg": "/static/media/numpy.6fb9a991659e7c32b00af7534acc3160.svg",
     "index.html": "/index.html",
-    "main.34725d95.css.map": "/static/css/main.34725d95.css.map",
-    "main.ac95a3a6.js.map": "/static/js/main.ac95a3a6.js.map"
+    "main.8dcd88c3.css.map": "/static/css/main.8dcd88c3.css.map",
+    "main.effed296.js.map": "/static/js/main.effed296.js.map"
   },
   "entrypoints": [
-    "static/css/main.34725d95.css",
-    "static/js/main.ac95a3a6.js"
+    "static/css/main.8dcd88c3.css",
+    "static/js/main.effed296.js"
   ]
 }
