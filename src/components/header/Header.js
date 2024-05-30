@@ -1,24 +1,33 @@
 import "./style.css";
-
-import uok from "./unicorn.jpg";
+import { NavLink } from "react-router-dom";
+import me from "./../../img/about/me.jpg";
 
 const Header = () => {
   return (
-    <header className="header">
-      <div className="header-wrapper">
-        <h1 className="header-title">
-          <strong>Hi, I'm Gleb</strong>
-          <br />
-          Welcome to my portfolio
-        </h1>
-        <div className="header-text">
-          <p></p>
+    <main id="about" className="section">
+      <div className="container about-container">
+        <div className="about-text-container">
+          <h1 className="intro">
+            IT Student
+            <span role="img" aria-label="wave">
+              👋
+            </span>
+          </h1>
+          <p className="about-description">
+            Hi, I'm Hlib Shaptala. An IT student based in Bordeaux, France. 📍
+          </p>
+          <div className="btn-group">
+            <NavLink to="/projects">
+              <button className="btn btn-black">See My Projects</button>
+            </NavLink>
+            <NavLink to="/contact">
+              <button className="btn btn-contact">Contact Me</button>
+            </NavLink>
+          </div>
         </div>
-        <a className="btn" href={uok} target="_blank" rel="noopener noreferrer">
-          Download CV
-        </a>
+        <img src={me} alt="me" className="about-image" />
       </div>
-    </header>
+    </main>
   );
 };
 
