@@ -1,5 +1,5 @@
 import github from "./../../img/icons/gitHub.svg";
-import linkedin from "./../../img/icons/linkedIn.svg";
+
 import "./style.css";
 
 const Footer = () => {
@@ -15,11 +15,6 @@ const Footer = () => {
                 rel="noreferrer"
               >
                 <img src={github} alt="Link" />
-              </a>
-            </li>
-            <li className="social-item">
-              <a href="#!">
-                <img src={linkedin} alt="Link" />
               </a>
             </li>
           </ul>
