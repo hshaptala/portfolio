@@ -23,7 +23,10 @@ const About = () => {
             I'm also interested in C/C++ languages. Currently, I'm looking for
             an internship in web development.
           </p>
-          <button className="btn btn-black">See My Projects</button>
+          <div className="btn-group">
+            <button className="btn btn-black">See My Projects</button>
+            <button className="btn btn-contact">Contact Me</button>
+          </div>
         </div>
         <img src={me} alt="me" className="about-image" />
       </div>

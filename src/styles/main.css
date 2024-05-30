@@ -273,7 +273,23 @@ body {
   margin-bottom: 30px;
 }
 
+.btn-group {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-contact {
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-contact:hover {
+  opacity: 0.8;
+}
+
 .btn-black {
+  border: 1px solid #000;
   background-color: #000;
   color: #fff;
 }
@@ -390,6 +406,7 @@ body {
     max-width: 100%;
     text-align: center;
     margin-bottom: 30px;
+    margin: 0 auto;
   }
 
   .about-image {
@@ -400,8 +417,18 @@ body {
     font-size: 36px;
   }
 
-  .button-group {
-    flex-direction: column;
+  .btn-group {
+    justify-content: center;
     gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .about-image {
+    width: 100%;
+  }
+
+  .intro {
+    font-size: 36px;
   }
 }
