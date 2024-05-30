@@ -19,7 +19,7 @@ const projects = [
 
   {
     title: "Pixel War IUT",
-    description: "A web game where you have to draw images by pixels.",
+    description: "Web pixel battle game",
     img: pixelwar,
     imgBig: pixelwarBig,
     skills: ["HTML", "CSS", "JavaScript"],

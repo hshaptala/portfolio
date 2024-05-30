@@ -13,7 +13,7 @@ const Navbar = () => {
             <strong>Shaptala</strong> Hlib
           </NavLink>
           <ul className="nav-list">
-            <li className="nav-list__item">
+            <li className="nav-list-item">
               <NavLink
                 to="/"
                 className={({ isActive }) =>

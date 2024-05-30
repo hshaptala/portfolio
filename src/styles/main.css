@@ -62,7 +62,7 @@ body {
 }
 
 .section {
-  padding: 70px;
+  padding: 50px;
 }
 
 .title-1 {
@@ -321,15 +321,21 @@ body {
 
   /* Nav */
 
-  .nav-row a,
-  ul {
-    margin: 0 auto;
+  .nav-row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-row a {
+    margin: 10px 0;
   }
 
   /* General */
 
   .section {
-    padding: 40px 0;
+    padding: 30px 0;
   }
 
   .title-1 {
@@ -424,11 +430,7 @@ body {
     margin-bottom: 20px;
   }
 
-  .about-image {
-    width: 100%;
-  }
-
-  .intro {
-    font-size: 36px;
+  .btn {
+    text-align: center;
   }
 }
