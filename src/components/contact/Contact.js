@@ -1,6 +1,8 @@
+import "./style.css";
+
 const Contact = () => {
   return (
-    <main className="section">
+    <main id="contact" className="section">
       <div className="container">
         <h1 className="title-1">Contact</h1>
 

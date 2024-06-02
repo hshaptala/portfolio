@@ -4,16 +4,16 @@ import me from "./../../img/about/me.jpg";
 
 const Header = () => {
   return (
-    <main id="about" className="section">
-      <div className="container about-container">
-        <div className="about-text-container">
+    <main id="header" className="section">
+      <div className="container header-container">
+        <div className="header-text-container">
           <h1 className="intro">
             IT Student
             <span role="img" aria-label="wave">
               👋
             </span>
           </h1>
-          <p className="about-description">
+          <p className="header-description">
             Hi, I'm Hlib Shaptala. An IT student based in Bordeaux, France. 📍
           </p>
           <div className="btn-group">
@@ -25,7 +25,7 @@ const Header = () => {
             </NavLink>
           </div>
         </div>
-        <img src={me} alt="me" className="about-image" />
+        <img src={me} alt="me" className="header-image" />
       </div>
     </main>
   );

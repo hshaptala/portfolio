@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 import "./style.css";
 
 const Navbar = () => {
@@ -24,34 +25,37 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-list-item">
-              <NavLink
-                to="/about"
-                className={({ isActive }) =>
-                  isActive ? activeLink : normalLink
-                }
+              <ScrollLink
+                to="about"
+                smooth={true}
+                duration={500}
+                className={normalLink}
+                activeClass={activeLink}
               >
                 About
-              </NavLink>
+              </ScrollLink>
             </li>
             <li className="nav-list-item">
-              <NavLink
-                to="/projects"
-                className={({ isActive }) =>
-                  isActive ? activeLink : normalLink
-                }
+              <ScrollLink
+                to="projects"
+                smooth={true}
+                duration={500}
+                className={normalLink}
+                activeClass={activeLink}
               >
                 Projects
-              </NavLink>
+              </ScrollLink>
             </li>
             <li className="nav-list-item">
-              <NavLink
-                to="/contact"
-                className={({ isActive }) =>
-                  isActive ? activeLink : normalLink
-                }
+              <ScrollLink
+                to="contact"
+                smooth={true}
+                duration={500}
+                className={normalLink}
+                activeClass={activeLink}
               >
                 Contact
-              </NavLink>
+              </ScrollLink>
             </li>
           </ul>
         </div>

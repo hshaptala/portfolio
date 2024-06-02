@@ -1,13 +1,14 @@
-import Project from "../components/project/Project";
+import "./style.css";
+import Project from "./../../components/project/Project";
 
-import { projects } from "./../helpers/projectsList";
+import { projects } from "./../../helpers/projectsList";
 
 const Projects = () => {
   return (
-    <main className="section">
+    <main id="projects" className="section">
       <div className="container">
         <h2 className="title-1">Projects</h2>
-        <ul className="projects">
+        <ul className="projects-list">
           {projects.map((project, index) => {
             return (
               <Project

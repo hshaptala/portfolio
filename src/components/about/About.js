@@ -1,8 +1,9 @@
-import about from "./../img/about/about.jpeg";
+import "./style.css";
+import about from "./../../img/about/about.jpeg";
 
 const About = () => {
   return (
-    <main className="section">
+    <main id="about" className="section">
       <h2 className="title-1">About</h2>
       <div className="container about-container">
         <img src={about} alt="about" id="about-img"></img>
