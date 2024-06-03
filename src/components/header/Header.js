@@ -1,5 +1,5 @@
 import "./style.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import me from "./../../img/about/me.JPG";
 
 const Header = () => {
@@ -17,12 +17,16 @@ const Header = () => {
             Hi, I'm Hlib Shaptala. An IT student based in Bordeaux, France. 📍
           </p>
           <div className="btn-group">
-            <NavLink to="/projects">
-              <button className="btn btn-black">See My Projects</button>
-            </NavLink>
-            <NavLink to="/contact">
-              <button className="btn btn-contact">Contact Me</button>
-            </NavLink>
+            <button className="btn btn-black">
+              <Link to="projects" smooth={true} duration={500}>
+                See My Projects
+              </Link>
+            </button>
+            <button className="btn btn-contact">
+              <Link to="contact" smooth={true} duration={500}>
+                Contact Me
+              </Link>
+            </button>
           </div>
         </div>
         <img src={me} alt="me" className="header-image" />
