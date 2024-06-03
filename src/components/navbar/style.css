@@ -39,11 +39,13 @@
 }
 
 .nav-list-link {
+  cursor: pointer;
   color: var(--nav-text);
   transition: opacity 0.2s ease-in;
 }
 
 .nav-list-link:hover {
+  color: var(--accent);
   opacity: 0.8;
 }
 

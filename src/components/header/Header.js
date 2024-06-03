@@ -1,6 +1,6 @@
 import "./style.css";
 import { NavLink } from "react-router-dom";
-import me from "./../../img/about/me.jpg";
+import me from "./../../img/about/me.JPG";
 
 const Header = () => {
   return (

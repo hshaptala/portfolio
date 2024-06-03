@@ -4,7 +4,7 @@ import "./style.css";
 
 const Navbar = () => {
   const normalLink = "nav-list-link";
-  const activeLink = "nav-list-link nav-list-link--active";
+  const activeLink = "nav-list-link--active";
 
   return (
     <nav className="nav">
@@ -17,9 +17,8 @@ const Navbar = () => {
             <li className="nav-list-item">
               <NavLink
                 to="/"
-                className={({ isActive }) =>
-                  isActive ? activeLink : normalLink
-                }
+                className={normalLink}
+                activeClassName={activeLink}
               >
                 Home
               </NavLink>
