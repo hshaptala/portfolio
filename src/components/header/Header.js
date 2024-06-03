@@ -1,6 +1,6 @@
 import "./style.css";
 import { Link } from "react-scroll";
-import me from "./../../img/about/me.JPG";
+import me from "./../../img/about/me.jpg";
 
 const Header = () => {
   return (
