@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.0765119b.css",
-    "main.js": "/static/js/main.1baf8ee4.js",
+    "main.js": "/static/js/main.1b53c09b.js",
     "static/media/react.png": "/static/media/react.6ae796f5d9f3e367acea.png",
-    "static/media/me.JPG": "/static/media/me.1fcdbd73e6b5a8a95c25.JPG",
+    "static/media/me.jpg": "/static/media/me.1fcdbd73e6b5a8a95c25.jpg",
     "static/media/odomo-big.png": "/static/media/odomo-big.98e768a2c4c7cf6b0736.png",
     "static/media/pixelwar-big.png": "/static/media/pixelwar-big.ab6ede3e0f44e388c92b.png",
     "static/media/towa-big.png": "/static/media/towa-big.b33bc9562f36fd75c54a.png",
@@ -25,15 +25,15 @@
     "static/media/html.png": "/static/media/html.cfb2ba4a6b1c3de295bc.png",
     "static/media/css.png": "/static/media/css.4a6549b8c2b4cda8bb88.png",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
-    "static/media/gitHub.svg": "/static/media/gitHub.a5541850a2a6843f34467a91657cc39d.svg",
-    "static/media/gitHub-black.svg": "/static/media/gitHub-black.879a08487a26f06ac21248a96c866696.svg",
+    "static/media/gitHub.svg": "/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
+    "static/media/gitHub-black.svg": "/static/media/gitHub-black.61157a57f0853aa9fd2f3622b730cdfc.svg",
     "static/media/numpy.svg": "/static/media/numpy.6fb9a991659e7c32b00af7534acc3160.svg",
     "index.html": "/index.html",
     "main.0765119b.css.map": "/static/css/main.0765119b.css.map",
-    "main.1baf8ee4.js.map": "/static/js/main.1baf8ee4.js.map"
+    "main.1b53c09b.js.map": "/static/js/main.1b53c09b.js.map"
   },
   "entrypoints": [
     "static/css/main.0765119b.css",
-    "static/js/main.1baf8ee4.js"
+    "static/js/main.1b53c09b.js"
   ]
 }
