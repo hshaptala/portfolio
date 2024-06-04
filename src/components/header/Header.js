@@ -6,6 +6,7 @@ const Header = () => {
   return (
     <main id="header" className="section">
       <div className="container header-container">
+        <img src={me} alt="me" className="header-image" />
         <div className="header-text-container">
           <h1 className="intro">
             IT Student
@@ -29,7 +30,6 @@ const Header = () => {
             </button>
           </div>
         </div>
-        <img src={me} alt="me" className="header-image" />
       </div>
     </main>
   );

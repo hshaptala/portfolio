@@ -1,24 +1,30 @@
-import html from "./../img/icons/html.png";
-import css from "./../img/icons/css.png";
-import js from "./../img/icons/js.png";
-import java from "./../img/icons/java.png";
-import python from "./../img/icons/python.png";
-import csharp from "./../img/icons/csharp.png";
-import sql from "./../img/icons/sql.png";
+// Languages
+import html from "./../img/icons/languages/html.png";
+import css from "./../img/icons/languages/css.png";
+import js from "./../img/icons/languages/js.png";
+import python from "./../img/icons/languages/python.png";
+import java from "./../img/icons/languages/java.png";
+import sql from "./../img/icons/languages/sql.png";
+import csharp from "./../img/icons/languages/csharp.png";
+import c from "./../img/icons/languages/c.png";
+import asm from "./../img/icons/languages/asm.svg";
 
-import vscode from "./../img/icons/vscode.png";
-import netbeans from "./../img/icons/netbeans.png";
-import visualStudio from "./../img/icons/visualStudio.png";
-import git from "./../img/icons/git.png";
-import github from "./../img/icons/github.png";
-import gitlab from "./../img/icons/gitlab.png";
-import vmware from "./../img/icons/vmware.png";
+// Tools
+import vscode from "./../img/icons/tools/vscode.png";
+import netbeans from "./../img/icons/tools/netbeans.png";
+import visualStudio from "./../img/icons/tools/visualStudio.png";
+import git from "./../img/icons/tools/git.png";
+import github from "./../img/icons/tools/github.png";
+import gitlab from "./../img/icons/tools/gitlab.png";
+import vmware from "./../img/icons/tools/vmware.png";
 
-import react from "./../img/icons/react.png";
-import bootstrap from "./../img/icons/bootstrap.png";
-import wordpress from "./../img/icons/wordpress.png";
-import numpy from "./../img/icons/numpy.svg";
-import matplotlib from "./../img/icons/matplotlib.png";
+// Frameworks
+import react from "./../img/icons/frameworks/react.png";
+import bootstrap from "./../img/icons/frameworks/bootstrap.png";
+import wordpress from "./../img/icons/frameworks/wordpress.png";
+import numpy from "./../img/icons/frameworks/numpy.svg";
+import pandas from "./../img/icons/frameworks/pandas.png";
+import matplotlib from "./../img/icons/frameworks/matplotlib.png";
 
 const languages = [
   { img: html, name: "HTML" },
@@ -26,8 +32,10 @@ const languages = [
   { img: js, name: "JavaScript" },
   { img: python, name: "Python" },
   { img: java, name: "Java" },
-  { img: csharp, name: "C#" },
   { img: sql, name: "SQL" },
+  { img: csharp, name: "C#" },
+  { img: c, name: "C" },
+  { img: asm, name: "ASM" },
 ];
 
 const tools = [
@@ -45,6 +53,7 @@ const frameworks = [
   { img: bootstrap, name: "Bootstrap" },
   { img: wordpress, name: "Wordpress" },
   { img: numpy, name: "NumPy" },
+  { img: pandas, name: "Pandas" },
   { img: matplotlib, name: "Matplotlib" },
 ];
 
