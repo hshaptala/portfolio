@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0765119b.css",
-    "main.js": "/static/js/main.1b53c09b.js",
+    "main.css": "/static/css/main.dbfeb3e2.css",
+    "main.js": "/static/js/main.ffd5e461.js",
     "static/media/react.png": "/static/media/react.6ae796f5d9f3e367acea.png",
     "static/media/me.jpg": "/static/media/me.1fcdbd73e6b5a8a95c25.jpg",
     "static/media/odomo-big.png": "/static/media/odomo-big.98e768a2c4c7cf6b0736.png",
@@ -11,6 +11,7 @@
     "static/media/git.png": "/static/media/git.8dd3688bb1415872d423.png",
     "static/media/odomo.png": "/static/media/odomo.34d5c36284a08a1c42bd.png",
     "static/media/python.png": "/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/c.png": "/static/media/c.ca323b325816f40cf155.png",
     "static/media/towa.png": "/static/media/towa.9f551caad8943d97f4f3.png",
     "static/media/matplotlib.png": "/static/media/matplotlib.108848d4569ad2010a41.png",
     "static/media/netbeans.png": "/static/media/netbeans.0beb70c385d318bc68a3.png",
@@ -27,13 +28,14 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/gitHub.svg": "/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
     "static/media/gitHub-black.svg": "/static/media/gitHub-black.61157a57f0853aa9fd2f3622b730cdfc.svg",
+    "static/media/asm.svg": "/static/media/asm.d00ff9bf6905c9d63877e5411de5568a.svg",
     "static/media/numpy.svg": "/static/media/numpy.6fb9a991659e7c32b00af7534acc3160.svg",
     "index.html": "/index.html",
-    "main.0765119b.css.map": "/static/css/main.0765119b.css.map",
-    "main.1b53c09b.js.map": "/static/js/main.1b53c09b.js.map"
+    "main.dbfeb3e2.css.map": "/static/css/main.dbfeb3e2.css.map",
+    "main.ffd5e461.js.map": "/static/js/main.ffd5e461.js.map"
   },
   "entrypoints": [
-    "static/css/main.0765119b.css",
-    "static/js/main.1b53c09b.js"
+    "static/css/main.dbfeb3e2.css",
+    "static/js/main.ffd5e461.js"
   ]
 }
