@@ -23,3 +23,11 @@
   color: var(--gray);
   font-size: 18px;
 }
+
+.about-text h3 {
+  color: var(--accent);
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
