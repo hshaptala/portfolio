@@ -4,30 +4,24 @@
   background-color: var(--white);
 }
 
-#header-img {
-  margin-left: 50px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.header-container {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-bottom: 60px;
+  flex-direction: row-reverse;
 }
 
-.header-text-container {
-  max-width: 50%;
-  margin-right: 20px;
+.header-text {
+  max-width: 100%;
 }
 
-.header-description {
+.header-text p {
   color: var(--gray);
   font-size: 18px;
   margin-bottom: 30px;
 }
 
-.header-image {
+.header-img {
   width: 350px;
   height: 350px;
   border-radius: 50%;
@@ -36,14 +30,14 @@
   object-position: center bottom;
 }
 
-.intro {
+.header-text h1 {
   font-size: 48px;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 20px;
 }
 
-.intro span {
+.header-text span {
   display: inline-block;
 }
 

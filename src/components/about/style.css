@@ -5,65 +5,21 @@
 }
 
 #about-img {
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.about-container {
+.about {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-bottom: 60px;
 }
 
-.about-text-container {
-  max-width: 40%;
+.about-text {
+  width: 40%;
 }
 
-.intro {
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 20px;
-}
-
-.intro span {
-  display: inline-block;
-}
-
-.about-description {
+.about-text p {
   color: var(--gray);
   font-size: 18px;
-  margin-bottom: 30px;
-}
-
-.btn-group {
-  display: flex;
-  gap: 20px;
-}
-
-.btn-contact {
-  border: 1px solid #000;
-  background-color: #fff;
-  color: #000;
-}
-
-.btn-contact:hover {
-  opacity: 0.8;
-}
-
-.btn-black {
-  border: 1px solid #000;
-  background-color: #000;
-  color: #fff;
-}
-
-.btn-black:hover {
-  opacity: 0.8;
-}
-
-.about-image {
-  width: 50%;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
