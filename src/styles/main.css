@@ -273,22 +273,22 @@ body {
     margin: 10px;
   }
 
-  /* Content category */
+  /* Skills */
 
-  .content-category h2 {
+  .skills h2 {
     font-size: 30px;
     margin-bottom: 30px;
   }
 
-  .content-category-list {
+  .skills-list {
     width: 100%;
   }
 
-  .content-category-container {
+  .skills-container {
     flex-direction: column;
   }
 
-  .content-category {
+  .skills {
     max-width: none;
     margin-bottom: 20px;
   }
