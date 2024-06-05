@@ -1,66 +1,96 @@
 import React, { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+
+import { Link as ScrollLink } from "react-scroll";
 import "./style.css";
 
 const Navbar = () => {
+  const [activeSection, setActiveSection] = useState(null);
   const [isNavbarFixed, setIsNavbarFixed] = useState(false);
-  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
+      const sections = ["header", "about", "projects", "contact"];
+      const scrollPosition = window.scrollY + 200;
+
+      sections.forEach((section) => {
+        const element = document.getElementById(section);
+        if (
+          element.offsetTop <= scrollPosition &&
+          element.offsetTop + element.offsetHeight > scrollPosition
+        ) {
+          setActiveSection(section);
+        }
+      });
+
       setIsNavbarFixed(window.scrollY > 20);
     };
 
-    if (location.pathname === "/") {
-      window.addEventListener("scroll", handleScroll);
-    }
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      if (location.pathname === "/") {
-        window.removeEventListener("scroll", handleScroll);
-      }
+      window.removeEventListener("scroll", handleScroll);
     };
-  }, [location.pathname]);
+  }, []);
 
+  const normalLink = "nav-list-link";
+  const activeLink = "nav-list-link--active";
   const navbarClass = isNavbarFixed ? "nav nav--fixed" : "nav";
-
-  if (location.pathname.startsWith("/project")) {
-    return (
-      <nav className="nav nav--center">
-        <Link to="/" className="logo">
-          <strong>Shaptala</strong> Hlib
-        </Link>
-      </nav>
-    );
-  }
 
   return (
     <nav className={navbarClass}>
       <div className="container">
         <div className="nav-row">
-          <Link to="/" className="logo">
+          <ScrollLink to="header" smooth={true} duration={500} className="logo">
             <strong>Shaptala</strong> Hlib
-          </Link>
+          </ScrollLink>
           <ul className="nav-list">
             <li className="nav-list-item">
-              <Link to="/" className="nav-list-link">
+              <ScrollLink
+                to="header"
+                smooth={true}
+                duration={500}
+                className={`${normalLink} ${
+                  activeSection === "header" ? activeLink : ""
+                }`}
+              >
                 Home
-              </Link>
+              </ScrollLink>
             </li>
             <li className="nav-list-item">
-              <Link to="/#about" className="nav-list-link">
+              <ScrollLink
+                to="about"
+                smooth={true}
+                duration={500}
+                className={`${normalLink} ${
+                  activeSection === "about" ? activeLink : ""
+                }`}
+              >
                 About
-              </Link>
+              </ScrollLink>
             </li>
             <li className="nav-list-item">
-              <Link to="/#projects" className="nav-list-link">
+              <ScrollLink
+                to="projects"
+                smooth={true}
+                duration={500}
+                className={`${normalLink} ${
+                  activeSection === "projects" ? activeLink : ""
+                }`}
+              >
                 Projects
-              </Link>
+              </ScrollLink>
             </li>
             <li className="nav-list-item">
-              <Link to="/#contact" className="nav-list-link">
+              <ScrollLink
+                to="contact"
+                smooth={true}
+                duration={500}
+                className={`${normalLink} ${
+                  activeSection === "contact" ? activeLink : ""
+                }`}
+              >
                 Contact
-              </Link>
+              </ScrollLink>
             </li>
           </ul>
         </div>
