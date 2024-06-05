@@ -43,6 +43,10 @@
   font-size: 18px;
 }
 
+.skills-list-item p {
+  color: var(--gray);
+}
+
 .skills-list-item img {
   width: 70px;
   height: 70px;
