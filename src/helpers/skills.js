@@ -4,10 +4,7 @@ import css from "./../img/icons/languages/css.png";
 import js from "./../img/icons/languages/js.png";
 import python from "./../img/icons/languages/python.png";
 import java from "./../img/icons/languages/java.png";
-import sql from "./../img/icons/languages/sql.png";
 import csharp from "./../img/icons/languages/csharp.png";
-import c from "./../img/icons/languages/c.png";
-import asm from "./../img/icons/languages/asm.svg";
 
 // Tools
 import vscode from "./../img/icons/tools/vscode.png";
@@ -16,7 +13,6 @@ import visualStudio from "./../img/icons/tools/visualStudio.png";
 import git from "./../img/icons/tools/git.png";
 import github from "./../img/icons/tools/github.png";
 import gitlab from "./../img/icons/tools/gitlab.png";
-import vmware from "./../img/icons/tools/vmware.png";
 
 // Frameworks
 import react from "./../img/icons/frameworks/react.png";
@@ -32,10 +28,7 @@ const languages = [
   { img: js, name: "JavaScript" },
   { img: python, name: "Python" },
   { img: java, name: "Java" },
-  { img: sql, name: "SQL" },
   { img: csharp, name: "C#" },
-  { img: c, name: "C" },
-  { img: asm, name: "ASM" },
 ];
 
 const tools = [
@@ -45,7 +38,6 @@ const tools = [
   { img: git, name: "Git" },
   { img: github, name: "GitHub" },
   { img: gitlab, name: "GitLab" },
-  { img: vmware, name: "VMware" },
 ];
 
 const frameworks = [
