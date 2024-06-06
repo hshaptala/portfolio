@@ -22,13 +22,14 @@ const Project = () => {
             alt={project.title}
             className="project-details-cover"
           />
-          <div className="content-category">
-            <h2>Skills</h2>
-            <ul className="content-category-list">
+
+          <div className="skills">
+            <h2 className="title-1">Skills</h2>
+            <ul className="skills-list">
               {project.skills.map((skill) => {
                 const language = getLanguage(skill);
                 return (
-                  <li key={skill} className="content-category-list-item">
+                  <li key={skill} className="skills-list-item">
                     <img
                       src={language.img}
                       alt={language.name}
