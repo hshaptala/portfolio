@@ -254,6 +254,41 @@ body {
     font-size: 22px;
   }
 
+  /* Contact */
+
+  .contact-container {
+    flex-direction: column-reverse;
+  }
+
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    margin: 30px;
+  }
+
+  .form-row {
+    flex-direction: row;
+  }
+
+  .form-group {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  .form-group:last-child {
+    margin-right: 0;
+  }
+
+  .contact-form {
+    width: 100% !important;
+  }
+
+  .contact-form button {
+    width: 100% !important;
+  }
+
   /* Footer */
 
   .footer {
