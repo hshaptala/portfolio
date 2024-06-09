@@ -22,7 +22,8 @@ const Project = () => {
             alt={project.title}
             className="project-details-cover"
           />
-
+          <h2 className="title-2">Description</h2>
+          <p className="project-details-full-desc">{project.fullDescription}</p>
           <div className="skills">
             <h2 className="title-1">Skills</h2>
             <ul className="skills-list">

@@ -7,12 +7,12 @@ import java from "./../img/icons/languages/java.png";
 import csharp from "./../img/icons/languages/csharp.png";
 
 // Tools
-import vscode from "./../img/icons/tools/vscode.png";
-import netbeans from "./../img/icons/tools/netbeans.png";
 import visualStudio from "./../img/icons/tools/visualStudio.png";
+import netbeans from "./../img/icons/tools/netbeans.png";
+import unity from "./../img/icons/tools/unity.png";
 import git from "./../img/icons/tools/git.png";
-import github from "./../img/icons/tools/github.png";
-import gitlab from "./../img/icons/tools/gitlab.png";
+import blender from "./../img/icons/tools/blender.png";
+import mysql from "./../img/icons/tools/mysql.png";
 
 // Frameworks
 import react from "./../img/icons/frameworks/react.png";
@@ -32,12 +32,12 @@ const languages = [
 ];
 
 const tools = [
-  { img: vscode, name: "Code" },
-  { img: netbeans, name: "NetBeans" },
   { img: visualStudio, name: "VS" },
+  { img: netbeans, name: "NetBeans" },
+  { img: unity, name: "Unity" },
   { img: git, name: "Git" },
-  { img: github, name: "GitHub" },
-  { img: gitlab, name: "GitLab" },
+  { img: blender, name: "Blender" },
+  { img: mysql, name: "MySQL" },
 ];
 
 const frameworks = [
