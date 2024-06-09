@@ -1,4 +1,4 @@
-import github from "./../../img/icons/github.svg";
+import github from "./../../img/icons/gitHub.svg";
 import linkedin from "./../../img/icons/linkedin.svg";
 
 import "./style.css";
