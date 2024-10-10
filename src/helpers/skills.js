@@ -2,12 +2,9 @@
 import html from "./../img/icons/languages/html.png";
 import css from "./../img/icons/languages/css.png";
 import js from "./../img/icons/languages/js.png";
-import python from "./../img/icons/languages/python.png";
 import java from "./../img/icons/languages/java.png";
 import csharp from "./../img/icons/languages/csharp.png";
-import sql from "./../img/icons/languages/sql.png";
 import php from "./../img/icons/languages/php.png";
-import c from "./../img/icons/languages/c.png";
 
 // Tools
 import git from "./../img/icons/tools/git.png";
