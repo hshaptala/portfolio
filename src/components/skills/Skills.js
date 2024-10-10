@@ -1,5 +1,5 @@
 import "./style.css";
-import { languages, tools, frameworks } from "../../helpers/skills";
+import { languages, tools, frameworks } from "./../../helpers/skills";
 
 const Skills = () => {
   return (

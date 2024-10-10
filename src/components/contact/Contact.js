@@ -29,6 +29,7 @@ const Contact = () => {
           <form
             action="mailto:hlib.shaptala@etu.u-bordeaux.fr"
             method="post"
+            enctype="text/plain"
           >
             <div className="form-row">
               <div className="form-group">
