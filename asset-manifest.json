@@ -1,15 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.c3f4ae45.css",
-    "main.js": "/static/js/main.9e336261.js",
+    "main.js": "/static/js/main.b4fc37ad.js",
     "static/media/me.jpg": "/static/media/me.d91610cfa682bcd355c2.jpg",
     "static/media/react.png": "/static/media/react.6ae796f5d9f3e367acea.png",
+    "static/media/graph-big.png": "/static/media/graph-big.0240655660c3e935e027.png",
     "static/media/pixelwar-big.png": "/static/media/pixelwar-big.030b6eae9cb789ecaec5.png",
+    "static/media/zaloupa-big.png": "/static/media/zaloupa-big.01a47f6652cc75ae97f7.png",
+    "static/media/towa-big.png": "/static/media/towa-big.b33bc9562f36fd75c54a.png",
     "static/media/stathydre-big.png": "/static/media/stathydre-big.9b217b7f15784709f429.png",
     "static/media/git.png": "/static/media/git.8dd3688bb1415872d423.png",
+    "static/media/graph.png": "/static/media/graph.2006aa7c8e14ee6a5590.png",
     "static/media/pixelwar.png": "/static/media/pixelwar.ed39f09a127ffeae2d15.png",
+    "static/media/towa.png": "/static/media/towa.9f551caad8943d97f4f3.png",
     "static/media/php.png": "/static/media/php.4990580e9b615aeebb1f.png",
     "static/media/stathydre.png": "/static/media/stathydre.ae2fb36d4fd7d44d8ed5.png",
+    "static/media/zaloupa.png": "/static/media/zaloupa.dca6daee99d760295f59.png",
     "static/media/java.png": "/static/media/java.ddf8676bd569fe01ab44.png",
     "static/media/csharp.png": "/static/media/csharp.4a32f53d425c7ad4cb05.png",
     "static/media/symfony.png": "/static/media/symfony.a0a0d0c849072206eb98.png",
@@ -24,10 +30,10 @@
     "static/media/linkedIn.svg": "/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "index.html": "/index.html",
     "main.c3f4ae45.css.map": "/static/css/main.c3f4ae45.css.map",
-    "main.9e336261.js.map": "/static/js/main.9e336261.js.map"
+    "main.b4fc37ad.js.map": "/static/js/main.b4fc37ad.js.map"
   },
   "entrypoints": [
     "static/css/main.c3f4ae45.css",
-    "static/js/main.9e336261.js"
+    "static/js/main.b4fc37ad.js"
   ]
 }
