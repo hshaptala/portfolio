@@ -18,8 +18,7 @@ const About = () => {
               <br></br>
               I'm passioned for problem-solving and creating efficient
               solutions. My goal is to improve my
-              skills and grow as a professional. In future, i would like to
-              become a Full-Stack Web-Developer. 
+              skills and grow as a professional.
               <br></br>
               <br></br>
               Currently, I'm looking for an
