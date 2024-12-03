@@ -1,14 +1,20 @@
 import { useParams } from "react-router-dom";
 import BtnGitHub from "../components/btnGitHub/BtnGitHub";
 import { projects } from "./../helpers/projectsList";
-import { languages } from "./../helpers/skills";
+import { languages, tools, frameworks } from "./../helpers/skills";
 
 const Project = () => {
   const { id } = useParams();
   const project = projects[id];
 
-  const getLanguage = (language) => {
-    return languages.find((lang) => lang.name === language);
+  const allSkills = [
+    ...languages.map((skill) => ({ ...skill, category: "Languages" })),
+    ...tools.map((skill) => ({ ...skill, category: "Tools" })),
+    ...frameworks.map((skill) => ({ ...skill, category: "Frameworks" })),
+  ];
+
+  const getSkill = (skillName) => {
+    return allSkills.find((skill) => skill.name === skillName);
   };
 
   return (
@@ -27,16 +33,16 @@ const Project = () => {
           <div className="skills">
             <h2 className="title-1">Skills</h2>
             <ul className="skills-list">
-              {project.skills.map((skill) => {
-                const language = getLanguage(skill);
+              {project.skills.map((skillName) => {
+                const skill = getSkill(skillName);
                 return (
-                  <li key={skill} className="skills-list-item">
+                  <li key={skillName} className="skills-list-item">
                     <img
-                      src={language.img}
-                      alt={language.name}
+                      src={skill.img}
+                      alt={skill.name}
                       className="skill-icon"
                     />
-                    <p>{language.name}</p>
+                    <p>{skill.name}</p>
                   </li>
                 );
               })}
