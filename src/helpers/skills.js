@@ -15,9 +15,9 @@ import figma from "./../img/icons/tools/figma.svg";
 
 // Frameworks
 import react from "./../img/icons/frameworks/react.png";
-import bootstrap from "./../img/icons/frameworks/bootstrap.png";
 import symfony from "./../img/icons/frameworks/symfony.png";
-import nodejs from "./../img/icons/frameworks/nodejs.svg";
+import junit from "./../img/icons/frameworks/junit.png";
+import aspnet from "./../img/icons/frameworks/asp-net.svg";
 
 const languages = [
   { img: html, name: "HTML" },
@@ -37,10 +37,10 @@ const tools = [
 ];
 
 const frameworks = [
-  { img: react, name: "React" },
-  { img: bootstrap, name: "Bootstrap" },
   { img: symfony, name: "Symfony" },
-  { img: nodejs, name: "NodeJS" },
+  { img: react, name: "React" },
+  { img: aspnet, name: "ASP.NET" },
+  { img: junit, name: "JUnit 5" },
 ];
 
 export { languages, tools, frameworks };

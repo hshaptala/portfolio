@@ -32,7 +32,7 @@ const projects = [
       "As part of a team, my task during this project was to create an interface for an application that allows users to view weather statistics for different countries.",
     img: stathydre,
     imgBig: stathydreBig,
-    skills: ["C#"],
+    skills: ["C#", "Visual Studio", "MySQL"],
     link: "https://github.com/hshaptala/StatHydre",
   },
 
@@ -43,7 +43,7 @@ const projects = [
       "Towa is a strategic chessboard game for 2 players. The goal is to score the most points by moving pawns. During this project, i have coded the rules as well as an AI for this game.",
     img: towa,
     imgBig: towaBig,
-    skills: ["Java"],
+    skills: ["Java", "JUnit 5"],
     link: "https://github.com/hshaptala/Towa",
   },
 
@@ -54,7 +54,7 @@ const projects = [
       "In this project I used a Java library for modeling graphs. It was necessary to program breadth-first and depth-first traversal algorithms to find the shortest path between two nodes.",
     img: graph,
     imgBig: graphBig,
-    skills: ["Java"],
+    skills: ["Java", "JUnit 5"],
     link: "https://github.com/hshaptala/Graph-Visualization",
   },
 
@@ -65,10 +65,9 @@ const projects = [
       "This project is a website for a company that offers online document signing. The goal was to create a design from a scratch using flexbox.",
     img: zaloupa,
     imgBig: zaloupaBig,
-    skills: ["HTML", "CSS"],
+    skills: ["HTML", "CSS", "Figma"],
     link: "https://github.com/hshaptala/Document-Signing",
   },
-  
 ];
 
 export { projects };
