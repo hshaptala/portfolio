@@ -20,7 +20,7 @@ const Footer = () => {
             </li>
             <li className="social-item">
               <a
-                href="https://www.linkedin.com/in/hlib-shaptala-6299b2312/"
+                href="https://www.linkedin.com/in/hlib-shaptala/"
                 target="_blank"
                 rel="noreferrer"
               >
