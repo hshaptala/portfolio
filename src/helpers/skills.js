@@ -17,7 +17,7 @@ import figma from "./../img/icons/tools/figma.svg";
 import react from "./../img/icons/frameworks/react.png";
 import symfony from "./../img/icons/frameworks/symfony.png";
 import junit from "./../img/icons/frameworks/junit.png";
-import aspnet from "./../img/icons/frameworks/asp-net.svg";
+import tailwind from "./../img/icons/frameworks/tailwind.svg";
 
 const languages = [
   { img: html, name: "HTML" },
@@ -39,7 +39,7 @@ const tools = [
 const frameworks = [
   { img: symfony, name: "Symfony" },
   { img: react, name: "React" },
-  { img: aspnet, name: "ASP.NET" },
+  { img: tailwind, name: "Tailwind" },
   { img: junit, name: "JUnit 5" },
 ];
 

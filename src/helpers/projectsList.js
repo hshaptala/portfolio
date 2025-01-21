@@ -13,7 +13,43 @@ import zaloupaBig from "./../img/projects/zaloupa-big.png";
 import towa from "./../img/projects/towa.png";
 import towaBig from "./../img/projects/towa-big.png";
 
+import robot from "./../img/projects/robot.png";
+import robotBig from "./../img/projects/robot-big.png";
+
 const projects = [
+  {
+    title: "Robot Competition Organizer",
+    description: "Application to manage robot soccer tournaments",
+    fullDescription:
+      "This project involves the development of an application designed to organize soccer competitions… for robots! The app covers the entire process, from team registration to the publication of competition results, including the scheduling and management of matchups.",
+    img: robot,
+    imgBig: robotBig,
+    skills: ["Symfony", "Tailwind", "MySQL", "Docker"],
+    link: "https://github.com/hshaptala/",
+  },
+
+  {
+    title: "Graph Visualization",
+    description: "Application to visualize graphs by bundling edges",
+    fullDescription:
+      "In this project I used a Java library for modeling graphs. It was necessary to program breadth-first and depth-first traversal algorithms to find the shortest path between two nodes.",
+    img: graph,
+    imgBig: graphBig,
+    skills: ["Java", "JUnit 5"],
+    link: "https://github.com/hshaptala/Graph-Visualization",
+  },
+
+  {
+    title: "Document signing website",
+    description: "Design for a website that signs documents online",
+    fullDescription:
+      "This project is a website for a company that offers online document signing. The goal was to create a design from a scratch using flexbox.",
+    img: zaloupa,
+    imgBig: zaloupaBig,
+    skills: ["HTML", "CSS", "Figma"],
+    link: "https://github.com/hshaptala/Document-Signing",
+  },
+
   {
     title: "Web app with RESTful API",
     description: "Pixel battle game",
@@ -45,28 +81,6 @@ const projects = [
     imgBig: towaBig,
     skills: ["Java", "JUnit 5"],
     link: "https://github.com/hshaptala/Towa",
-  },
-
-  {
-    title: "Graph Visualization",
-    description: "Application to visualize graphs by bundling edges",
-    fullDescription:
-      "In this project I used a Java library for modeling graphs. It was necessary to program breadth-first and depth-first traversal algorithms to find the shortest path between two nodes.",
-    img: graph,
-    imgBig: graphBig,
-    skills: ["Java", "JUnit 5"],
-    link: "https://github.com/hshaptala/Graph-Visualization",
-  },
-
-  {
-    title: "Document signing website",
-    description: "Design for a website that signs documents online",
-    fullDescription:
-      "This project is a website for a company that offers online document signing. The goal was to create a design from a scratch using flexbox.",
-    img: zaloupa,
-    imgBig: zaloupaBig,
-    skills: ["HTML", "CSS", "Figma"],
-    link: "https://github.com/hshaptala/Document-Signing",
   },
 ];
 
